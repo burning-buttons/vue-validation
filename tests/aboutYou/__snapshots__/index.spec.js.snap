@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About you page renders correct 1`] = `
+<div class="about-you-page">
+  <div class="header-quiz">
+    <div class="header-quiz__container container">
+      <div class="stub-link header-quiz__logo" to="[object Object]"></div>
+      <h1 class="header-quiz__title">title</h1>
+      <!---->
+    </div>
+    <div class="progress">
+      <div class="progress__ready"></div>
+    </div>
+  </div>
+  <div class="container page__container">
+    <div class="card">
+      <!---->
+      <div class="card__container">
+        <!----> <span><div class="birth-day card__section about-you-page__birthday"><h3>In what month and year were you born (month/year)?</h3> <div class="birth-day__list"><span class="birth-day__item"><div class="select error"><input type="text" class="select__input"> <div class="select__view"><span class="select__placeholder select__view-text">Month</span></div>
+      <!---->
+      <!---->
+    </div></span> <span class="birth-day__item"><div class="select error"><input type="text" class="select__input"> <div class="select__view"><span class="select__placeholder select__view-text">Year</span>
+  </div>
+  <!---->
+  <!---->
+</div></span></div> <span><input type="text" class="birth-day__full-date"> <div class="error-message mt">Invalid date</div></span></div>
+<div class="card__section about-you-page__sex"><span><h3>What is your sex?</h3> <div class="radio-list"><label class="radio-list__item"><input type="radio" class="radio with-gap" value="1"> <span>Male</span></label><label class="radio-list__item"><input type="radio" class="radio with-gap" value="0"> <span>Female</span></label></div>
+<div class="error-message mt">Field sex is required</div>
+</span></div>
+<div class="card__section about-you-page__height">
+  <h3>What is your height?</h3>
+  <div class="user-height"><span class="user-height__item"><div class="input error"><input type="text" placeholder="ft" class="input__node"></div> <div class="error-message mt">Field feet is required</div></span> <span class="user-height__item"><div class="input"><input type="text" placeholder="in" class="input__node"></div> <!----></span> <button class="button button_text user-height__toggler">
+      Switch to metric
+    </button></div> <span><input type="text" class="user-height__common-height"> <!----></span>
+</div>
+<div class="card__section about-you-page__ethnicity">
+  <h3>What is your ethnicity?</h3> <span><div class="select error"><input type="text" class="select__input"> <div class="select__view"><span class="select__placeholder select__view-text">Select value</span>
+</div>
+<!---->
+<!---->
+</div>
+<div class="error-message mt">Field ethnicity is required</div></span></div>
+<div class="user-living card__section about-you-page__living">
+  <h3>Where are you currently living?</h3> <span><div class="input error"><input type="text" placeholder="Zip Code / Postal Code" class="input__node"></div> <div class="error-message mt">Field zip/post code is required</div></span>
+  <div class="user-living__link"><a href="#">Outside the US?</a></div>
+</div>
+<!---->
+<div class="page__card-footer"><button class="button button_secondary page__card-footer-button about-you-page__submit"><span>Next</span> <span class="icon icon__arrow icon__arrow_right"></span></button></div></span>
+<!---->
+</div>
+</div>
+<!---->
+</div>
+</div>
+`;
